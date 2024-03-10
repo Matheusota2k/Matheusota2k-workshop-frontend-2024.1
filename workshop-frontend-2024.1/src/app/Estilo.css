@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
+  background-size: cover;
+}
+
+.shows-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.show-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  max-width: 100px; 
+  margin: auto; 
+  text-align: center;
+}
+
+.show-item img {
+  max-width: 200px;
+  margin-bottom: 0.5rem;
+}
+
+.error {
+  color: red;
+}
+
+.show-summary {
+  max-height: 100px; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+}
+
+.netflix-button {
+  background-color: #e50914; 
+  color: #fff; 
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none; 
+}
+
+.netflix-button:hover {
+  background-color: #b20710; 
+}

@@ -1,6 +1,6 @@
 # Matheusota2k-workshop-frontend-2024.1
 
-Para rodar o código na sua maquina primeiro deverar instalar as seguintes funções no seu terminarl
+Para rodar o código na sua maquina primeiro deverá instalar as seguintes funções no seu terminal
 
 1- npm install
 4- npm start

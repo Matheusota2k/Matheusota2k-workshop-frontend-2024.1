@@ -3,9 +3,9 @@
 Para rodar o código na sua maquina primeiro deverá instalar as seguintes funções no seu terminal
 
 1- npm install
-4- npm start
-2- npm i react-hook-form zod @hookform/resolvers
-3- npm install react-slick slick-carousel
+2- npm start
+3- npm i react-hook-form zod @hookform/resolvers
+4- npm install react-slick slick-carousel
 e por último npm run dev
 
 Após todas as pendencias terem sido baixadas o código rodara normalmente em sua maquina.
